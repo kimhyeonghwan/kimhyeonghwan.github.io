@@ -15,17 +15,15 @@ about:
 
 반갑슴다.
 
-저는 수학/경제학을 전공하고 한국거래소에서 6년간 일하다가 현재 카이스트 경영대학원에서 금융공학 석사과정을 이수하고 있습니다.
+저는 수학/경제학을 전공하고 한국거래소에서 일하다가 현재 카이스트 금융공학 석사과정을 이수하고 있습니다.
 
-제가 하는 공부나 제 삶을 기록하고자 웹사이트를 만들게 되었고, 상단의 메뉴마다 각각의 블로그 형태로 구현할 예정입니다.
+제가 하는 공부나 일상을 좀 남겨보려고 웹사이트를 만들게 되었고, 상단의 메뉴마다 각각의 블로그로 구현할 예정입니다.
 
 ### Education
 
-Sogang University | Seoul
-Mathmatics & Economics | Feb 2012 - Feb 2018
+Sogang University | Mathmatics & Economics
 
-KAIST College of business | Seoul
-Master of Financial Engineering | Feb 2024 - (Present)
+KAIST College of business |Master of Financial Engineering
 
 ### Experience
 
