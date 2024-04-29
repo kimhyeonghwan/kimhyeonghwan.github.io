@@ -10,6 +10,7 @@ about:
     - icon: google
       text: E-mail
       href: mailto:gudghks93@gmail.com
+sidebar: false
 ---
 
 Welcome and Thank you for visit my homepage.
@@ -28,6 +29,6 @@ KAIST College of business | Master of Financial Engineering | Feb 2024 - (Presen
 
 ### Experience
 
-Samsung Assetmanagement | Summar Internship | Jun 2017 - Aug 2017
+Samsung Assetmanagement | Internship | Jun 2017 - Aug 2017
 
 Korea Exchange | Derivatives Market Rules&Reg. | Dec 2017 - (Present)

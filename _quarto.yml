@@ -3,27 +3,46 @@ project:
 
 website:
   title: "Hyeonghwan"
+  search: 
+    location: navbar
+    type: overlay
   navbar:
     background: primary
-    search: true
     left:
       - text: "Home"
         file: home.qmd
       - text: "Study"
         href: https://kimhyeonghwan.github.io/KAIST
       - text: "Life"
+        file: life.qmd
       - text: "Work"
       - text: "Game"
-
+        file: game.qmd
     tools:
       - icon: github
         href: https://github.com/kimhyeonghwan
       - icon: google
         href: mailto:gudghks93@gmail.com
   sidebar:
-    style: "docked"
-    search: false
-    contents: auto
+    - title: "Home"
+      style: "docked"
+      background: light
+      contents: home.qmd
+    - title: "Study"
+      contents:
+        - href: https://kimhyeonghwan.github.io/KAIST
+    - title: "Life"
+      contents:
+        - file: Chapter3.qmd
+    - title: "Work"
+    - title: "Game"
+      contents: game
+  page-footer: "Copyright 2024, Hyeonghwan Kim"
+  back-to-top-navigation: true
+  page-navigation: true 
+
+execute:
+  freeze: auto
 
 format:
   html:

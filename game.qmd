@@ -1,0 +1,6 @@
+---
+title: "Game"
+listing:
+  contents: game
+  type: grid
+---
