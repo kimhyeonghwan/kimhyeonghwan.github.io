@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Hyeonghwan"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: home.qmd
+      - text: "Study"
+        href: https://kimhyeonghwan.github.io/KAIST
+      - text: "Life"
+      - text: "Work"
+      - text: "Game"
+
+    tools:
+      - icon: github
+        href: https://github.com/kimhyeonghwan
+      - icon: google
+        href: mailto:gudghks93@gmail.com
+  sidebar:
+    style: "docked"
+    search: false
+    contents: auto
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true

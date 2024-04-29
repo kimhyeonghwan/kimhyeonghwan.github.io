@@ -1,0 +1,33 @@
+---
+title: "Welcome!"
+about:
+  template: jolla
+  image: images/sally1.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/kimhyeonghwan
+    - icon: google
+      text: E-mail
+      href: mailto:gudghks93@gmail.com
+---
+
+Welcome and Thank you for visit my homepage.
+
+I'm Hyeonghwan Kim in South Korea, working and having interest in financial industry.
+
+I want to share my experience and life through this website.
+
+The picture above is a nice cat, namely Sally!
+
+### Education
+
+Sogang University | Mathmatics & Economics | Feb 2012 - Feb 2018
+
+KAIST College of business | Master of Financial Engineering | Feb 2024 - (Present)
+
+### Experience
+
+Samsung Assetmanagement | Summar Internship | Jun 2017 - Aug 2017
+
+Korea Exchange | Derivatives Market Rules&Reg. | Dec 2017 - (Present)
