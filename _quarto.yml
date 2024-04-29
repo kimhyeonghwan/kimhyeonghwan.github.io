@@ -12,31 +12,38 @@ website:
       - text: "Home"
         file: home.qmd
       - text: "Study"
-        href: https://kimhyeonghwan.github.io/KAIST
+        href: home_study.qmd
       - text: "Life"
-        file: life.qmd
-      - text: "Work"
-      - text: "Game"
-        file: game.qmd
+        file: home_life.qmd
     tools:
       - icon: github
         href: https://github.com/kimhyeonghwan
       - icon: google
-        href: mailto:gudghks93@gmail.com
-  sidebar:
-    - title: "Home"
+        menu:
+          - text: gudghks93@gmail.com
+          - text: Send E-mail
+            href: mailto:gudghks93@gmail.com
+  sidebar: 
+    - title: "Study"
       style: "docked"
       background: light
-      contents: home.qmd
-    - title: "Study"
       contents:
-        - href: https://kimhyeonghwan.github.io/KAIST
+        - text: "Study Home"
+          file: home_study.qmd
+        - text: "24년 봄학기"
+          href: https://kimhyeonghwan.github.io/24s
+        - text: "24년 봄학기(선물옵션)"
+          href: https://kimhyeonghwan.github.io/24s_derivatives
+        - text: "24년 가을학기"
+        - text: "25년 봄학기"
+        - text: "25년 가을학기(논문)"
     - title: "Life"
       contents:
-        - file: Chapter3.qmd
-    - title: "Work"
-    - title: "Game"
-      contents: game
+        - text: "Life Home"
+          file: home_life.qmd
+        - text: "일상"
+        - text: "고양이"
+        - text: "육아일기"
   page-footer: "Copyright 2024, Hyeonghwan Kim"
   back-to-top-navigation: true
   page-navigation: true 

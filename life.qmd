@@ -1,6 +1,0 @@
----
-title: "Life"
-listing:
-  contents: life
-  type: grid
----
