@@ -31,9 +31,9 @@ website:
         - text: "Study Home"
           file: home_study.qmd
         - text: "24년 봄학기"
-          href: https://kimhyeonghwan.github.io/24s
+          href: https://hwan.quarto.pub/24s
         - text: "24년 봄학기(선물옵션)"
-          href: https://kimhyeonghwan.github.io/24s_derivatives
+          href: https://hwan.quarto.pub/derivatives
         - text: "24년 가을학기"
         - text: "25년 봄학기"
         - text: "25년 가을학기(논문)"

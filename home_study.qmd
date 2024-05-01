@@ -3,7 +3,7 @@ title: "Study"
 image: images/brochure_mfe.jpg
 about:
   template: trestles
-  image-shape: rectangle
+  image-shape: rounded
 ---
 
 ## KAIST MFE
