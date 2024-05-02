@@ -9,26 +9,28 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Home"
+      - text: "HOME"
         file: home.qmd
-      - text: "Study"
+      - text: "KAIST"
         href: home_study.qmd
-      - text: "Life"
+      - text: "LIFE"
         file: home_life.qmd
+      - text: "금융공학"
+        file: "home_fe.qmd"
     tools:
-      - icon: github
-        href: https://github.com/kimhyeonghwan
       - icon: google
         menu:
           - text: gudghks93@gmail.com
           - text: Send E-mail
             href: mailto:gudghks93@gmail.com
+      - icon: github
+        href: https://github.com/kimhyeonghwan
   sidebar: 
-    - title: "Study"
+    - title: "KAIST"
       style: "docked"
       background: light
       contents:
-        - text: "Study Home"
+        - text: "KAIST Home"
           file: home_study.qmd
         - text: "24년 봄학기"
           href: https://hwan.quarto.pub/24s
@@ -37,13 +39,19 @@ website:
         - text: "24년 가을학기"
         - text: "25년 봄학기"
         - text: "25년 가을학기(논문)"
-    - title: "Life"
+    - title: "LIFE"
       contents:
         - text: "Life Home"
           file: home_life.qmd
         - text: "일상"
         - text: "고양이"
         - text: "육아일기"
+    - title: "금융공학"
+      contents:
+        - text: "금융공학 home"
+          file: "home_fe.qmd"
+        - text: "(1)금융과 공학"
+          file: fe/fe_1.qmd
   page-footer: "Copyright 2024, Hyeonghwan Kim"
   back-to-top-navigation: true
   page-navigation: true 
@@ -56,3 +64,4 @@ format:
     theme: minty
     css: styles.css
     toc: true
+    linestretch : 3

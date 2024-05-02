@@ -13,20 +13,42 @@ about:
       href: mailto:gudghks93@gmail.com
 ---
 
-반갑습니다.
+### About me
 
-저는 수학/경제학을 전공하고 한국거래소에서 일하다가 현재 카이스트 금융공학 석사과정을 이수하고 있습니다.
+\
 
-제가 하는 공부나 일상을 좀 남겨보려고 웹사이트를 만들게 되었고, 상단의 메뉴마다 각각의 블로그로 구현할 예정입니다.
+금융, 수학, 코딩과 기초과학에 관심이 많습니다.
 
-### Education
+최근에는 뭔가 의미있는 일이 하고싶어졌는데,
+
+제 관심사나 일상을 기록하면 좋지않을까 싶어서
+
+웹사이트를 만들게 되었습니다.
+
+\
+
+상단의 메뉴마다 각각의 홈페이지와 소메뉴가 있는
+
+여러개의 블로그 형태로 구현하려고 생각중이고,
+
+관심사가 바뀔때마다 추가해냐갈 계획입니다.
+
+\
+
+제가 좋아하는 일에 집중력이 좋긴 한데,
+
+흥미 위주로 살다보니 끈기가 좀 없어서
+
+언제까지 운영할지는 잘 모르겠습니다.
+
+\
+
+### Education & Experience
+
+\
 
 Sogang University | Mathmatics & Economics
 
-KAIST College of business |Master of Financial Engineering
+KAIST College of business | Financial Engineering | (Present)
 
-### Experience
-
-Samsung Assetmanagement | Internship | Jun 2017 - Aug 2017
-
-Korea Exchange | Derivatives Market Rules&Reg. | Dec 2017 - (Present)
+Korea Exchange | Derivatives Market Rules&Reg. | (Present)
