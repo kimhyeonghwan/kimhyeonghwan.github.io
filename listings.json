@@ -1,16 +1,10 @@
 [
   {
-    "listing": "/game.html",
+    "listing": "/home_life.html",
     "items": [
-      "/game/game1.html",
-      "/game/game2.html",
-      "/game/game3.html"
-    ]
-  },
-  {
-    "listing": "/life.html",
-    "items": [
-      "/life/Chapter3.html"
+      "/life/daily.html",
+      "/life/cat.html",
+      "/life/baby.html"
     ]
   }
 ]

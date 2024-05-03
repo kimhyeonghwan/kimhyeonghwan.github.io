@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kimhyeonghwan.github.io/home_study.html</loc>
-    <lastmod>2024-05-01T00:35:26.960Z</lastmod>
+    <loc>https://kimhyeonghwan.github.io/life/daily.html</loc>
+    <lastmod>2024-05-03T11:47:11.288Z</lastmod>
   </url>
   <url>
-    <loc>https://kimhyeonghwan.github.io/fe/fe_1.html</loc>
-    <lastmod>2024-05-02T05:49:21.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kimhyeonghwan.github.io/home_fe.html</loc>
-    <lastmod>2024-05-01T04:56:32.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kimhyeonghwan.github.io/home.html</loc>
-    <lastmod>2024-05-01T04:38:44.036Z</lastmod>
+    <loc>https://kimhyeonghwan.github.io/life/baby.html</loc>
+    <lastmod>2024-05-03T11:53:58.633Z</lastmod>
   </url>
   <url>
     <loc>https://kimhyeonghwan.github.io/home_life.html</loc>
-    <lastmod>2024-05-01T00:35:26.959Z</lastmod>
+    <lastmod>2024-05-03T11:51:23.455Z</lastmod>
   </url>
   <url>
-    <loc>https://kimhyeonghwan.github.io/life/Chapter3.html</loc>
-    <lastmod>2024-05-01T00:35:26.990Z</lastmod>
+    <loc>https://kimhyeonghwan.github.io/home.html</loc>
+    <lastmod>2024-05-03T11:13:40.935Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kimhyeonghwan.github.io/fe/fe_1.html</loc>
+    <lastmod>2024-05-03T11:00:19.181Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kimhyeonghwan.github.io/home_fe.html</loc>
+    <lastmod>2024-05-03T11:00:35.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kimhyeonghwan.github.io/home_study.html</loc>
+    <lastmod>2024-05-03T11:09:01.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kimhyeonghwan.github.io/life/cat.html</loc>
+    <lastmod>2024-05-03T11:47:36.227Z</lastmod>
   </url>
 </urlset>

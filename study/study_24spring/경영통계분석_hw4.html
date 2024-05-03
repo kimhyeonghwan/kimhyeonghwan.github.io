@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hyeonghwan - Game 2</title>
+<title>Hyeonghwan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../game/game3.html" rel="next">
-<link href="../game/game1.html" rel="prev">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,18 +66,47 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hyeonghwan</span>
     </a>
   </div>
@@ -90,109 +117,123 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../home.html"> 
+    <a class="nav-link" href="../../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://kimhyeonghwan.github.io/KAIST"> 
+    <a class="nav-link" href="../../home_study.html"> 
 <span class="menu-text">Study</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../life.html"> 
+    <a class="nav-link" href="../../home_life.html"> 
 <span class="menu-text">Life</span></a>
-  </li>  
-  <li class="dropdown-header">
- <span class="menu-text">Work</span></li>
-  <li class="nav-item">
-    <a class="nav-link" href="../game.html"> 
-<span class="menu-text">Game</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
     <a href="https://github.com/kimhyeonghwan" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="mailto:gudghks93@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-google"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-google"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="">
+            gudghks93@gmail.com
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="mailto:gudghks93@gmail.com">
+            Send E-mail
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../game/game1.html">Game</a></li><li class="breadcrumb-item"><a href="../game/game2.html">Game 2</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Game</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../game/game1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Game 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../game/game2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Game 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../game/game3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Game 3</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#경영통계분석-과제4" id="toc-경영통계분석-과제4" class="nav-link active" data-scroll-target="#경영통계분석-과제4">경영통계분석 과제4</a>
+  <ul class="collapse">
+  <li><a href="#problem-1." id="toc-problem-1." class="nav-link" data-scroll-target="#problem-1.">Problem 1.</a>
+  <ul class="collapse">
+  <li><a href="#answer" id="toc-answer" class="nav-link" data-scroll-target="#answer">Answer</a></li>
+  </ul></li>
+  <li><a href="#problem-2." id="toc-problem-2." class="nav-link" data-scroll-target="#problem-2.">Problem 2.</a>
+  <ul class="collapse">
+  <li><a href="#answer-1" id="toc-answer-1" class="nav-link" data-scroll-target="#answer-1">Answer</a></li>
+  </ul></li>
+  <li><a href="#problem-3." id="toc-problem-3." class="nav-link" data-scroll-target="#problem-3.">Problem 3.</a>
+  <ul class="collapse">
+  <li><a href="#answer-2" id="toc-answer-2" class="nav-link" data-scroll-target="#answer-2">Answer</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../game/game1.html">Game</a></li><li class="breadcrumb-item"><a href="../game/game2.html">Game 2</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Game 2</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
+<section id="경영통계분석-과제4" class="level1 unnumbered">
+<h1 class="unnumbered">경영통계분석 과제4</h1>
+<section id="problem-1." class="level2">
+<h2 class="anchored" data-anchor-id="problem-1.">Problem 1.</h2>
+<p>Assume that the standard deviation of the heights of five-year-old boys is 3.5 inches. How many five-year-old need to be sampled if we want to be 90% sure that the population mean height is estimated within .5 inch?</p>
+<section id="answer" class="level3">
+<h3 class="anchored" data-anchor-id="answer">Answer</h3>
+<p>크기가 N인 표본을 임의추출하고, 충분히 크다고 가정하겠습니다.</p>
+<p>모표준편차가 3.5(inch)이므로, 크기가 N인 표본평균 <span class="math inline">\(\bar{X}\)</span>은 중심극한정리(CLT)에 의해 정규분포 <span class="math inline">\(N(\mu,\frac{3.5^2}{N})\)</span>을 따르게 될 것입니다.</p>
+<p>이를 이용하여 신뢰수준이 90%인 모평균의 신뢰구간을 양편으로 추정해보겠습니다.</p>
+<p><span class="math display">\[P(z_{0.95}=-z_{0.05}&lt;\frac{\bar{X}-\mu}{3.5/\sqrt{N}}&lt;z_{0.05})=0.9\Rightarrow P(\bar{X}-z_{0.05}\frac{3.5}{\sqrt{N}}&lt;\mu&lt;\bar{X}+z_{0.05}\frac{3.5}{\sqrt{N}})=0.9\]</span></p>
+<p>여기서, 모평균을 0.5inch 이내로 추정하는 것의 의미는, 표본오차가 0.5이내, 즉 <span class="math inline">\(z_{0.05}\frac{3.5}{\sqrt{N}}&lt;0.5\)</span>라는 뜻입니다.</p>
+<p><span class="math inline">\(z_{0.05}\approx 1.65\)</span>이므로, 이를 정리하면 <span class="math inline">\(1.65\times 7&lt;\sqrt{N}\Rightarrow 133.4025&lt;N\)</span></p>
+<p>즉, 표본의 수가 134명 이상이라면 90% 신뢰구간을 0.5inch 오차 이내로 추정할 수 있습니다.</p>
+<p>또한, 이는 충분히 큰 표본이므로 앞서 CLT를 이용하는 것에 위배되지 않습니다.</p>
+</section>
+</section>
+<section id="problem-2." class="level2">
+<h2 class="anchored" data-anchor-id="problem-2.">Problem 2.</h2>
+<p>An employee of an on-campus copy center wants to determine the mean number of copies before a cartridge needs to be replaced. She records the life length in thousands of copies for 43 cartridges and obtains <span class="math inline">\(n=43,\bar{x}=8.12, s=1.78\)</span> thousand copies Obtain a 90% confidence interval for the population mean, µ , number of copies in thousands before a cartridge should be replaced.</p>
+<section id="answer-1" class="level3">
+<h3 class="anchored" data-anchor-id="answer-1">Answer</h3>
+<p>먼저, 43개의 샘플이 충분히 크다고 생각하고 시작하겠습니다.</p>
+<p>CLT에 따라 표본평균 <span class="math inline">\(\bar{X}\sim N(\mu,\sigma/\sqrt{43})\)</span>이며, 표본분산 <span class="math inline">\(\frac{42\times s^2}{\sigma^2}\sim \chi^2(42)\)</span>입니다.</p>
+<p>이를 정리하면 <span class="math inline">\(\frac{\bar{X}-\mu}{s/\sqrt{43}}\sim t(42)\)</span>가 되는데, 표본의 크기가 충분히 크므로 <span class="math inline">\(t(n-1)\rightarrow N(0,1)\)</span>로 근사할 수 있습니다.</p>
+<p>이제, 이를 이용하여 모평균의 90% 신뢰구간을 추정해보겠습니다.</p>
+<p><span class="math display">\[P(\mu\in(\bar{X}\pm z_{0.05}\frac{s}{\sqrt{43}}))=0.90\Rightarrow P(\mu\in(7.672,8.568))=0.90\]</span></p>
+<p>즉, 신뢰구간은 (7.672, 8.568)입니다.</p>
+</section>
+</section>
+<section id="problem-3." class="level2">
+<h2 class="anchored" data-anchor-id="problem-3.">Problem 3.</h2>
+<p>Data on the average weekly earnings were obtained from a survey of 50 nonsupervisory production workers in the mining industry. The sample mean and standard deviation were found to be $630 and $35, respectively.</p>
+<ol type="a">
+<li>Estimate the true mean weekly earnings and determine the 95% error margin.</li>
+<li>Construct a 95% confidence interval for the true mean weekly earnings</li>
+</ol>
+<section id="answer-2" class="level3">
+<h3 class="anchored" data-anchor-id="answer-2">Answer</h3>
+<p>먼저, 표본평균 <span class="math inline">\(\bar{X}\)</span>의 성질에 따라 <span class="math inline">\(E(\bar{X})=\mu,\;\bar{X}\rightarrow^p \mu\)</span>이므로 <span class="math inline">\(\bar{X}\)</span>는 모평균에 대한 불편(unbiased) 및 일치(consistent)추정량입니다.</p>
+<p>따라서 <strong>모평균의 estimator로 표본평균을 선정하고, 모평균을 $630으로 추정</strong>하겠습니다.</p>
+<p>한편, 표본의 수가 50으로 충분히 크므로 앞서 이용한 논리를 그대로 준용하여 <span class="math inline">\(\frac{\bar{X}-\mu}{s/\sqrt{50}}\sim t(49)\approx N(0,1)\)</span>라고 할 수 있습니다.</p>
+<p>따라서 <strong>95%의 error margin은 <span class="math inline">\(z_{0.05}\frac{s}{\sqrt{50}}=8.167\)</span>입니다.</strong></p>
+<p>마지막으로, 95%의 신뢰수준으로 추정한 모평균의 신뢰구간은 아래와 같습니다.</p>
+<p><span class="math display">\[P(\bar{X}-z_{0.025}\frac{s}{\sqrt{50}}&lt;\mu&lt;\bar{X}-z_{0.025}\frac{s}{\sqrt{50}})\Rightarrow Confidence\;interval\;is\;(620.299,639.702)\]</span></p>
 
-    
-  
-    
-  </div>
-  
 
-
-</header>
-
-
-
-
+</section>
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -274,24 +315,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -326,11 +349,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -604,18 +623,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../game/game1.html" class="pagination-link" aria-label="Game 1">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Game 1</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../game/game3.html" class="pagination-link" aria-label="Game 3">
-        <span class="nav-page-text">Game 3</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
