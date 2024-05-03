@@ -39,13 +39,6 @@ website:
         - text: "24년 가을학기"
         - text: "25년 봄학기"
         - text: "25년 가을학기(논문)"
-    - title: "LIFE"
-      contents:
-        - text: "Life Home"
-          file: home_life.qmd
-        - text: "일상"
-        - text: "고양이"
-        - text: "육아일기"
     - title: "금융공학"
       contents:
         - text: "금융공학 home"

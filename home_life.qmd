@@ -1,13 +1,14 @@
 ---
 title: "Life"
-image: images/sapporo1.jpg
-about:
-  template: jolla
-  image-shape: rounded
+subtitle: "Photo blog"
+listing:
+  contents: life
+  type: default
+  categories: true
+  sort:
+    - "date desc"
+    - "title desc"
+  image-height: 2in
+  sort-ui: [title, date]
+  filter-ui: [title, date]
 ---
-
-일상생활같은걸 기록해보려고 하는데, 구체적인 계획은 없습니다.
-
-일단 와이프랑 잘먹고 잘돌아니는면서 사진좀 올리고 고양이 키우는 것도 좀 올리고...
-
-곧 아빠도 되니까 육아일기도 써보려구 합니다.

@@ -1,0 +1,9 @@
+---
+title: "daily_test"
+subtitle: "데일리 테스트"
+author: "Hyeonghwan"
+description: 데일리 테스트입니다.
+categories: "daily"
+date: "Saturday, May 3, 2024"
+image: images/sally2.jpg
+---

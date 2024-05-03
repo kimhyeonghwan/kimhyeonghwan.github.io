@@ -1,0 +1,9 @@
+---
+title: "cat_test"
+subtitle: "고양이 테스트"
+author: "Hyeonghwan"
+description: 고양이 테스트입니다.
+categories: "cat"
+date: "Saturday, May 2, 2024"
+image: images/sally2.jpg
+---

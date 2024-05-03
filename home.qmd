@@ -4,6 +4,8 @@ image: images/sally1.jpg
 about:
   template: trestles
   image-shape: round
+  image-title: sally
+  image-width: 3in
   links:
     - icon: github
       text: Github
@@ -15,40 +17,30 @@ about:
 
 ### About me
 
-\
-
 금융, 수학, 코딩과 기초과학에 관심이 많습니다.
 
-최근에는 뭔가 의미있는 일이 하고싶어졌는데,
-
-제 관심사나 일상을 기록하면 좋지않을까 싶어서
+제 관심사나 일상을 기록해보면 좋을 것 같아서
 
 웹사이트를 만들게 되었습니다.
 
 \
 
-상단의 메뉴마다 각각의 홈페이지와 소메뉴가 있는
+상단의 메뉴마다 각각의 홈페이지와 페이지가 있는
 
-여러개의 블로그 형태로 구현하려고 생각중이고,
+블로그의 형태로 구현하려고 생각중이고,
 
-관심사가 바뀔때마다 추가해냐갈 계획입니다.
+관심사가 생길때마다 추가해나갈 계획입니다.
 
 \
 
-제가 좋아하는 일에 집중력이 좋긴 한데,
-
-흥미 위주로 살다보니 끈기가 좀 없어서
-
-언제까지 운영할지는 잘 모르겠습니다.
+제가 끈기가 좀 없어서 걱정인데 열심히 해보겠습니다...
 
 \
 
 ### Education & Experience
 
-\
-
 Sogang University | Mathmatics & Economics
 
-KAIST College of business | Financial Engineering | (Present)
+KAIST College of business | MFE | (Present)
 
-Korea Exchange | Derivatives Market Rules&Reg. | (Present)
+Korea Exchange | (Present)

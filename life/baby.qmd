@@ -1,0 +1,9 @@
+---
+title: "baby_test"
+subtitle: "baby 테스트"
+author: "Hyeonghwan"
+description: baby 테스트입니다.
+categories: "baby"
+date: "Saturday, May 1, 2024"
+image: images/sally1.jpg
+---
