@@ -61,4 +61,4 @@ format:
     theme: minty
     css: styles.css
     toc: true
-    linestretch : 3
+    linestretch : 2.5
