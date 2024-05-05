@@ -6,5 +6,25 @@
       "/life/cat.html",
       "/life/baby.html"
     ]
+  },
+  {
+    "listing": "/home_gaming.html",
+    "items": [
+      "/gaming/tft_110.html",
+      "/gaming/tft_100.html",
+      "/gaming/tft_95.html",
+      "/gaming/tft_90.html",
+      "/gaming/tft_85.html",
+      "/gaming/tft_80.html",
+      "/gaming/tft_75.html",
+      "/gaming/tft_70.html",
+      "/gaming/tft_65.html",
+      "/gaming/tft_60.html",
+      "/gaming/tft_55.html",
+      "/gaming/tft_50.html",
+      "/gaming/tft_45.html",
+      "/gaming/tft_40.html",
+      "/gaming/tft_35.html"
+    ]
   }
 ]

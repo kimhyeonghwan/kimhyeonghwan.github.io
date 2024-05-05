@@ -21,11 +21,103 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\ndaily_test\n\n\n데일리 테스트\n\n\n\ndaily\n\n\n\n데일리 테스트입니다.\n\n\n\n\n\nMay 3, 2024\n\n\nHyeonghwan\n\n\n\n\n\n\n\n\n\n\n\n\ncat_test\n\n\n고양이 테스트\n\n\n\ncat\n\n\n\n고양이 테스트입니다.\n\n\n\n\n\nMay 2, 2024\n\n\nHyeonghwan\n\n\n\n\n\n\n\n\n\n\n\n\nbaby_test\n\n\nbaby 테스트\n\n\n\nbaby\n\n\n\nbaby 테스트입니다.\n\n\n\n\n\nMay 1, 2024\n\n\nHyeonghwan\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "home.html",
-    "href": "home.html",
-    "title": "Welcome!",
+    "objectID": "home_fe.html",
+    "href": "home_fe.html",
+    "title": "금융공학",
     "section": "",
-    "text": "About me\n금융, 수학, 코딩과 기초과학에 관심이 많습니다.\n제 관심사나 일상을 기록해보면 좋을 것 같아서\n웹사이트를 만들게 되었습니다.\n\n\n상단의 메뉴마다 각각의 홈페이지와 페이지가 있는\n블로그의 형태로 구현하려고 생각중이고,\n관심사가 생길때마다 추가해나갈 계획입니다.\n\n\n제가 끈기가 좀 없어서 걱정인데 열심히 해보겠습니다…\n\n\n\n\nEducation & Experience\nSogang University | Mathmatics & Economics\nKAIST College of business | MFE | (Present)\nKorea Exchange | (Present)\n\n\n\n Back to top"
+    "text": "최근에 대학원에서 금융공학을 배우기 시작했는데,\n이참에 금융공학과 여러 주제들을 제 방식대로 적어보려고 합니다.\n제가 그리 전문성이 있지는 않기 때문에, 흥미 위주로 접근할 계획입니다.\n\n\n\n Back to top",
+    "crumbs": [
+      "금융공학",
+      "금융공학 home"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_95.html",
+    "href": "gaming/tft_95.html",
+    "title": "TFT 9.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 9.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_85.html",
+    "href": "gaming/tft_85.html",
+    "title": "TFT 8.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 8.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_75.html",
+    "href": "gaming/tft_75.html",
+    "title": "TFT 7.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 7.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_65.html",
+    "href": "gaming/tft_65.html",
+    "title": "TFT 6.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 6.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_55.html",
+    "href": "gaming/tft_55.html",
+    "title": "TFT 5.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 5.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_45.html",
+    "href": "gaming/tft_45.html",
+    "title": "TFT 4.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 4.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_35.html",
+    "href": "gaming/tft_35.html",
+    "title": "TFT 3.5시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 3.5시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_100.html",
+    "href": "gaming/tft_100.html",
+    "title": "TFT 10.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 10.0시즌"
+    ]
   },
   {
     "objectID": "fe/fe_1.html",
@@ -39,15 +131,95 @@
     ]
   },
   {
-    "objectID": "home_fe.html",
-    "href": "home_fe.html",
-    "title": "금융공학",
+    "objectID": "gaming/tft_110.html",
+    "href": "gaming/tft_110.html",
+    "title": "TFT 11.0시즌",
     "section": "",
-    "text": "최근에 대학원에서 금융공학을 배우기 시작했는데,\n이참에 금융공학과 여러 주제들을 제 방식대로 적어보려고 합니다.\n제가 그리 전문성이 있지는 않기 때문에, 흥미 위주로 접근할 계획입니다.\n\n\n\n Back to top",
+    "text": "Back to top",
     "crumbs": [
-      "금융공학",
-      "금융공학 home"
+      "Gaming",
+      "TFT 11.0시즌"
     ]
+  },
+  {
+    "objectID": "gaming/tft_40.html",
+    "href": "gaming/tft_40.html",
+    "title": "TFT 4.0시즌",
+    "section": "",
+    "text": "챔피언\n\n\n신성 워윅, 황혼 리븐, 명사수 진, 영혼 아리\n다 재밌었음\n\n\n\n시너지\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 4.0시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_50.html",
+    "href": "gaming/tft_50.html",
+    "title": "TFT 5.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 5.0시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_60.html",
+    "href": "gaming/tft_60.html",
+    "title": "TFT 6.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 6.0시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_70.html",
+    "href": "gaming/tft_70.html",
+    "title": "TFT 7.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 7.0시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_80.html",
+    "href": "gaming/tft_80.html",
+    "title": "TFT 8.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 8.0시즌"
+    ]
+  },
+  {
+    "objectID": "gaming/tft_90.html",
+    "href": "gaming/tft_90.html",
+    "title": "TFT 9.0시즌",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Gaming",
+      "TFT 9.0시즌"
+    ]
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "About me\n금융, 수학, 코딩과 기초과학에 관심이 많습니다.\n제 관심사나 일상을 기록해보면 좋을 것 같아서\n웹사이트를 만들게 되었습니다.\n\n\n상단의 메뉴마다 각각의 홈페이지와 페이지가 있는\n블로그의 형태로 구현하려고 생각중이고,\n관심사가 생길때마다 추가해나갈 계획입니다.\n\n\n제가 끈기가 좀 없어서 걱정인데 열심히 해보겠습니다…\n\n\n\n\nEducation & Experience\nSogang University | Mathmatics & Economics\nKAIST College of business | MFE | (Present)\nKorea Exchange | (Present)\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "home_gaming.html",
+    "href": "home_gaming.html",
+    "title": "Gaming",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTFT 11.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n현재 진행중… 마스터 겨우 찍었음\n\n\n\nHyeonghwan\n\n\nMay 6, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 10.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nJan 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 9.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nOct 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 9.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nAug 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 8.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nMay 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 8.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nFeb 26, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 7.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nOct 4, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 7.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n\n\n\n\nHyeonghwan\n\n\nAug 22, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 6.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n첼린저 달성, 증강체 첫 등장, 사교계 세라핀/갈리오\n\n\n\nHyeonghwan\n\n\nJun 7, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 6.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n마스터 149점, 아카데미/혁신가/화공\n\n\n\nHyeonghwan\n\n\nFeb 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 5.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n마스터 주차 시작\n\n\n\nHyeonghwan\n\n\nAug 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 5.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n다이아 2 마무리, 망령 아이번/볼베+딩거 기억남\n\n\n\nHyeonghwan\n\n\nJul 17, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 4.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n첫 마스터 진입, 첫 5코스트 3성\n\n\n\nHyeonghwan\n\n\nApr 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 4.0시즌\n\n\n\nTFT(롤토체스)\n\n\n\n다이아 3 마무리, 600판 대기록… 선받자 기믹이 좋아서 재밌게 많이 했음\n\n\n\nHyeonghwan\n\n\nJan 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTFT 3.5시즌\n\n\n\nTFT(롤토체스)\n\n\n\n롤토체스 첫시즌, 골드 3 마무리! 별수호자 니코/신드라랑 시공간이 재밌었던거 같음.\n\n\n\nHyeonghwan\n\n\nSep 13, 2020\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "home_study.html",
