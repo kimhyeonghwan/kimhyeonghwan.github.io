@@ -1,0 +1,11 @@
+---
+title: "TFT 5.5시즌"
+subtitle: "롤토체스 5.5시즌 리뷰"
+author: "Hyeonghwan"
+description: 마스터 주차 시작
+categories: "TFT(롤토체스)"
+date: "Aug 31, 2021"
+image: images/tft_55_0.png
+---
+
+![](images/tft_55_1.png)

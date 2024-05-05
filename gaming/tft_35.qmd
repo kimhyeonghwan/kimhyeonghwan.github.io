@@ -1,0 +1,11 @@
+---
+title: "TFT 3.5시즌"
+subtitle: "롤토체스 3.5시즌 리뷰"
+author: "Hyeonghwan"
+description: 롤토체스 첫시즌, 골드 3 마무리! 별수호자 니코/신드라랑 시공간이 재밌었던거 같음.
+categories: "TFT(롤토체스)"
+date: "Sep 13, 2020"
+image: images/tft_35_0.png
+---
+
+![](images/tft_35_1.png)

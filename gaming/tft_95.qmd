@@ -1,0 +1,12 @@
+---
+title: "TFT 9.5시즌"
+subtitle: "롤토체스 9.5시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "Oct 17, 2023"
+image: images/tft_95_0.png
+---
+
+![](images/tft_95_1.png)
+
+![](images/tft_95_2.jpg)

@@ -1,0 +1,12 @@
+---
+title: "TFT 7.0시즌"
+subtitle: "롤토체스 7.0시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "Aug 22, 2022"
+image: images/tft_70_0.png
+---
+
+![](images/tft_70_1.png)
+
+![](images/tft_70_2.jpg)

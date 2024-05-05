@@ -1,0 +1,19 @@
+---
+title: "TFT 4.0시즌"
+subtitle: "롤토체스 4.0시즌 리뷰"
+author: "Hyeonghwan"
+description: 다이아 3 마무리, 600판 대기록... 선받자 기믹이 좋아서 재밌게 많이 했음
+categories: "TFT(롤토체스)"
+date: "Jan 20, 2021"
+image: images/tft_40_0.png
+---
+
+![](images/tft_40_1.png)
+
+![챔피언](images/tft_40_2.png)
+
+신성 워윅, 황혼 리븐, 명사수 진, 영혼 아리
+
+다 재밌었음
+
+![시너지](images/tft_40_3.png)

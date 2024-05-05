@@ -1,0 +1,12 @@
+---
+title: "TFT 10.0시즌"
+subtitle: "롤토체스 10.0시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "Jan 28, 2024"
+image: images/tft_100_0.png
+---
+
+![](images/tft_100_1.png)
+
+![](images/tft_100_2.jpg)

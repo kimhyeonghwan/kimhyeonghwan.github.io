@@ -1,0 +1,11 @@
+---
+title: "TFT 5.0시즌"
+subtitle: "롤토체스 5.0시즌 리뷰"
+author: "Hyeonghwan"
+description: 다이아 2 마무리, 망령 아이번/볼베+딩거 기억남
+categories: "TFT(롤토체스)"
+date: "Jul 17, 2021"
+image: images/tft_50_0.png
+---
+
+![](images/tft_50_1.png)

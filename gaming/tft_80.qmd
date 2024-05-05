@@ -1,0 +1,12 @@
+---
+title: "TFT 8.0시즌"
+subtitle: "롤토체스 8.0시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "Feb 26, 2023"
+image: images/tft_80_0.png
+---
+
+![](images/tft_80_1.png)
+
+![](images/tft_80_2.jpg)

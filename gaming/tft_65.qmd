@@ -1,0 +1,17 @@
+---
+title: "TFT 6.5시즌"
+subtitle: "롤토체스 6.5시즌 리뷰"
+author: "Hyeonghwan"
+description: 첼린저 달성, 증강체 첫 등장, 사교계 세라핀/갈리오
+categories: "TFT(롤토체스)"
+date: "Jun 7, 2022"
+image: images/tft_65_0.png
+---
+
+![](images/tft_65_1.png)
+
+![](images/tft_65_2.png)
+
+![](images/tft_65_3.png)
+
+![](images/tft_65_4.png)

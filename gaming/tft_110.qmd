@@ -1,0 +1,11 @@
+---
+title: "TFT 11.0시즌"
+subtitle: "롤토체스 7.0시즌"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+description: 현재 진행중... 마스터 겨우 찍었음
+date: "May 6, 2024"
+image: images/tft_110_0.png
+---
+
+![](images/tft_110_1.png)

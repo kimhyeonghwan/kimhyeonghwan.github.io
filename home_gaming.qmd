@@ -1,0 +1,14 @@
+---
+title: "Gaming"
+subtitle: "Photo blog"
+listing:
+  contents: gaming
+  type: grid
+  categories: true
+  sort:
+    - "date desc"
+    - "title desc"
+  image-height: 2in
+  sort-ui: [title, date]
+  filter-ui: [title, date]
+---

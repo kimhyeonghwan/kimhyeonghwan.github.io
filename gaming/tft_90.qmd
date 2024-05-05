@@ -1,0 +1,12 @@
+---
+title: "TFT 9.0시즌"
+subtitle: "롤토체스 9.0시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "Aug 12, 2023"
+image: images/tft_90_0.png
+---
+
+![](images/tft_90_1.png)
+
+![](images/tft_90_2.jpg)

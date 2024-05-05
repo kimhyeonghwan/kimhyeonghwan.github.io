@@ -1,0 +1,12 @@
+---
+title: "TFT 8.5시즌"
+subtitle: "롤토체스 8.5시즌 리뷰"
+author: "Hyeonghwan"
+categories: "TFT(롤토체스)"
+date: "May 10, 2023"
+image: images/tft_85_0.png
+---
+
+![](images/tft_85_1.png)
+
+![](images/tft_85_2.jpg)

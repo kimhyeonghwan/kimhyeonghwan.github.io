@@ -1,0 +1,11 @@
+---
+title: "TFT 6.0시즌"
+subtitle: "롤토체스 6.0시즌 리뷰"
+author: "Hyeonghwan"
+description: 마스터 149점, 아카데미/혁신가/화공
+categories: "TFT(롤토체스)"
+date: "Feb 6, 2022"
+image: images/tft_60_0.png
+---
+
+![](images/tft_60_1.png)
