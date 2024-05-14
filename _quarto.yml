@@ -47,8 +47,10 @@ website:
       contents:
         - text: "금융공학 home"
           file: "home_fe.qmd"
-        - text: "(1)금융과 공학"
+        - text: "(1) 금융과 공학"
           file: fe/fe_1.qmd
+        - text: "(2) 금융공학의 여러 분야"
+          file: fe/fe_2.qmd
   page-footer: "Copyright 2024, Hyeonghwan Kim"
   back-to-top-navigation: true
   page-navigation: true 
