@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="quarto-navbar-tools">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-google"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="">
             gudghks93@gmail.com
@@ -176,7 +176,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -207,14 +206,15 @@ ul.task-list li input[type="checkbox"] {
 <p>앞서 저는 금융공학을 <strong>자본의 흐름을 이용해서 새로운 금융을 만드는 학문</strong>이라고 정의했습니다.</p>
 <p>근데 사실 잘 안와닿을 것 같긴합니다. 제가 생각해도 모호한 것 같은데요,</p>
 <p>그 이유를 생각해보니 금융공학에 대한 일반적인 인식과 동떨어져서 그런 것 같습니다.</p>
-<p>아마 금융공학이라고 하면, <em>뭔가 수학적이고 컴퓨터공학적인 지식을 활용해서 주가를 예측하고, 남들보다 빨리 거래기회를 포착해서 돈을 버는 것</em>을 떠올리게 되는 것 같습니다.</p>
-<p>즉, 금융공학은 고도의 거래전략을 만드는 기술정도로 인식되고 있는 듯 합니다. 제가 생각하는 무언가 편리한 도구를 만드는 공학의 개념이랑은 좀 다르게 말입니다.</p>
-<p>거래전략이 금융공학과 밀접한 연관이 있기는 합니다만, 제가 생각하는 금융공학은 이보다 훨씬 넓은 개념입니다.</p>
-<p>물리학의 한 분야로 양자역학이 있는 것 처럼, 금융공학에 한 분야로 거래전략이 있다는 이야기 입니다.</p>
-<p>앞서 정의한 “금융공학”을 바탕으로 금융공학의 여러 분야를 제가 아는 선에서 소개해보도록 하겠습니다.</p>
-</section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
+<p>아마 금융공학이라고 하면, <em>뭔가 수학적으로 주가를 예측하고, 이걸 컴퓨터로 구현한 다음, 남들보다 빨리 거래기회를 포착해서 돈을 버는 것</em>을 떠올리게 되는 것 같습니다.</p>
+<p>즉, 금융공학은 자산을 프라이싱(pricing)하는 기술정도로 인식되고 있는 듯 합니다. 제가 생각하는 무언가 편리한 도구를 만드는 공학의 개념이랑은 좀 다르게 말입니다.</p>
+<p>왜 그럴까요?</p>
+<p>당연한 말이긴 하지만, 금융공학을 통해 새로운 금융을 만들어내기 위해서는 기존의 금융, 전통 자산에 대한 프라이싱이 반드시 필요하기 때문입니다. 주식이나 채권같은 전통 자산의 가격이 어떻게 결정되는지를 먼저 잘 알고, 이를 이용해서 새로운 금융상품을 만들어냄으로써 금융을 창출하는 것 이지요.</p>
+<p>아마도 금융공학의 여러 가격결정 이론(pricing theory)를 이용해서 시장의 불균형을 찾아내고, 여기에서 돈을 버는 사람들이 점점 많아지면서 “금융공학은 프라이싱이다!” 라는 일반적인 인식이 자리잡지 않았을까 싶습니다.</p>
+<p>물론 그 과정에서 시장의 불균형이 해소되고, 효율성이 높아지면서 선의의 다수의 투자자에게 이익이 돌아갈 수 있습니다. 그렇다면 여기서 돈을 버는 행위도 금융공학이라고 할 수 있겠죠. 시장조성(Market making)이나 유동성공급자(Liquidity provider)처럼 말입니다.</p>
+<p>제가 말하고싶은건 프라이싱이 금융공학의 전부가 아니라는 겁니다. 금융공학은 본질적으로 새로운 금융을 만들어내는 편리한 도구이고, 프라이싱도 그 편리한 도구 중 하나입니다. 프라이싱을 통해 새로운 금융을 만들어내는 것이 금융공학이지, 프라이싱 자체가 목적이 될 수는 없습니다.</p>
+<p>그럼 금융공학의 목적이라고 할 수 있는 새로운 금융 창출에는 어떤 것들이 있을까요?</p>
+<p>이제 제가 생각하는 금융공학의 여러 분야를 알아보고, 또 프라이싱이 어떤 역할을 하는지, 어떤 방식으로 새로운 금융이 창출되는지 살펴보겠습니다.</p>
 
 
 </section>
@@ -299,24 +299,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/kimhyeonghwan\.github\.io\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -351,11 +333,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

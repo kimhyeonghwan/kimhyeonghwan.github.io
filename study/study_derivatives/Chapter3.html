@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Hyeonghwan</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Hyeonghwan</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../home.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../home_study.html"> 
+<span class="menu-text">Study</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../home_life.html"> 
+<span class="menu-text">Life</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://github.com/kimhyeonghwan" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-google"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="">
+            gudghks93@gmail.com
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="mailto:gudghks93@gmail.com">
+            Send E-mail
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chapter-3" id="toc-chapter-3" class="nav-link active" data-scroll-target="#chapter-3">Chapter 3</a>
+  <ul class="collapse">
+  <li><a href="#기본-원리" id="toc-기본-원리" class="nav-link" data-scroll-target="#기본-원리">기본 원리</a></li>
+  <li><a href="#헷징에-대한-논쟁" id="toc-헷징에-대한-논쟁" class="nav-link" data-scroll-target="#헷징에-대한-논쟁">헷징에 대한 논쟁</a></li>
+  <li><a href="#베이시스-리스크" id="toc-베이시스-리스크" class="nav-link" data-scroll-target="#베이시스-리스크">베이시스 리스크</a></li>
+  <li><a href="#교차-헷지cross-hedging" id="toc-교차-헷지cross-hedging" class="nav-link" data-scroll-target="#교차-헷지cross-hedging">교차 헷지(<em>Cross Hedging</em>)</a></li>
+  <li><a href="#주가지수선물" id="toc-주가지수선물" class="nav-link" data-scroll-target="#주가지수선물">주가지수선물</a></li>
+  <li><a href="#스택-앤-롤stack-and-roll" id="toc-스택-앤-롤stack-and-roll" class="nav-link" data-scroll-target="#스택-앤-롤stack-and-roll">스택 앤 롤(<em>Stack And Roll</em>)</a></li>
+  <li><a href="#sec-CAPM" id="toc-sec-CAPM" class="nav-link" data-scroll-target="#sec-CAPM">Appendix : CAPM</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="chapter-3" class="level1 unnumbered">
+<h1 class="unnumbered">Chapter 3</h1>
+<p>선물을 이용한 헷징전략<br>
+<em>(Hedging Strategies Using Futures)</em></p>
+<section id="기본-원리" class="level2">
+<h2 class="anchored" data-anchor-id="기본-원리">기본 원리</h2>
+<p>기관이나 개인이 선물을 이용하여 리스크를 헷지한다는 것은, 기본적으로 <strong>자신이 보유한 포지션이 지닌 가격변동위험과 반대 방향의 가격변동위험을 가진 선물계약을 보유</strong>하는 것을 의미합니다.</p>
+<p>즉, 현재 A회사의 포지션이 원달러 환율에 의한 가격변동위험에 노출되어 있어 <strong>향후 3개월간 달러당 환율이 1원 오를때 1억원의 손실을 입는 구조</strong>라면 달러당 환율이 <strong>1원 오를때 1억원의 이익이 발생하는 3개월 만기 선물계약</strong>을 보유하면 됩니다.</p>
+<p>이렇게 되면, 향후 3개월간 달러당 환율이 10원 올라 나의 포지션에서 10억원의 손실이 발생하더라도 선물계약에서 10억원의 이익이 발생하여 <strong>손익이 상쇄(offset)</strong>됩니다. 따라서 선물계약을 체결한 시점 이후의 가격변동위험은 “0”이기 때문에 <strong>A회사가 체감하는 환율의 실질가격(realized price, effective price)은 3개월간 선물계약의 체결가격으로 고정(lock)</strong>됩니다. 이러한 과정을 <strong>“헷징”</strong>이라고 합니다.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="매도 헷지 vs. 매수 헷지">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+매도 헷지 vs.&nbsp;매수 헷지
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>헷지 과정에서 선물을 매도하는 경우 매도 헷지(Short Hedges), 매수하는 경우 매수 헷지(Long Hedges)라고 합니다.<br>
+<strong>매도 헷지</strong>는 특정 자산을 미래시점에 매도할 예정으로, 자산의 가격하락위험 회피를 목적으로 선물을 매도하여 가격이 하락하더라도 선물계약에서 이익이 발생하도록 하는 헷지 방법입니다. 주로 원자재 생산자, 수출업자 등 현재 자산을 보유하고있거나 보유할 예정으로 이를 판매할 목적인 경우 활용합니다.<br>
+<strong>매수 헷지</strong>는 특정 자산을 미래시점에 매수할 예정으로, 자산의 가격상승위험 회피를 목적으로 선물을 매수하는 헷지 방법입니다. 주로 원자재를 이용하여 상품을 제조하는 제조업자, 수입업자 등 미래에 특정 자산을 구매할 목적인 경우 활용합니다.</p>
+</div>
+</div>
+</section>
+<section id="헷징에-대한-논쟁" class="level2">
+<h2 class="anchored" data-anchor-id="헷징에-대한-논쟁">헷징에 대한 논쟁</h2>
+<p>회사가 본인이 직면한 리스크를 최소화할 수 있다는 점에서 <strong>헷징의 중요성과 필요성은 명확</strong>합니다. 파생상품을 이용하여 <strong>적은 비용으로 리스크를 최소화하고, 본연의 경영활동에 집중</strong>할 수 있기 때문입니다. 그러나, 실제로 헷징이 완벽하게 이루어지는 경우는 많지 않은데, 여기에는 다양한 이유들이 있습니다.</p>
+<ul>
+<li><p><strong>헷징과 주주</strong> : 회사가 직면한 리스크에 대해서, 대개 주주들은 이를 인지하고 직접 헷지하거나 포트폴리오를 다변화하여 관리합니다. 이 경우, 회사의 리스크 헷지를 주주들이 원하지 않을 수 있습니다.</p></li>
+<li><p><strong>헷징과 경쟁자</strong> : 산업군 내 경쟁자가 존재하고, 모든 경쟁자가 헷징을 하지 않는 경우 헷징이 경쟁에 불리하게 작용할 수 있습니다. 내가 헷징을 하지 않으면 가격변동위험에 노출되지만, 다른 경쟁사도 동일 위험에 노출되므로 경쟁력에는 영향이 없습니다. 반대로, 나만 헷징하는 경우 가격변동위험은 최소화되지만 향후 가격이 유리하게 변동하여 선물계약에서 손실이 발생한다면, 나에게만 손실이 발생하므로 경쟁력이 약화될 수 있습니다.</p></li>
+<li><p><strong>헷징과 손익</strong> : 선물을 이용한 헷징은 미래가격을 선물가격으로 고정시켜 가격변동위험을 없애는 것입니다. 향후 가격변동으로 인해 선물계약에서 이익이 발생할 수도, 손실이 발생할 수도 있습니다. 하지만, 때때로 의사결정자 또는 주주들은 헷징으로 인해 선물에서 평가손실이 발생하면 이를 납득하지 못하곤 합니다. 모든 의사결정자와 주주가 파생상품 메커니즘을 정확히 이해하기는 어렵기 때문입니다.</p></li>
+</ul>
+</section>
+<section id="베이시스-리스크" class="level2">
+<h2 class="anchored" data-anchor-id="베이시스-리스크">베이시스 리스크</h2>
+<p>선물을 이용한 헷징은 내가 보유한 자산에 대한 선물을 내가 헷지하고자 하는 기간에 대해 내가 보유한 수량만큼 매수하거나 매도하는 방식으로 이루어집니다. 하지만, 실제로 정확한 헷징은 매우 어렵습니다.<br>
+&nbsp;&nbsp;1. 선물의 <strong>기초자산과 보유한 자산이 완벽히 동일</strong>해야 합니다.<br>
+&nbsp;&nbsp;2. 내가 보유한 자산을 <strong>언제까지 헷지할 것인지 정확히 알아야</strong> 합니다.<br>
+&nbsp;&nbsp;3. 헷징 종료일과 선물 만기일이 항상 동일하지 않습니다. 이 경우, <strong>헷징 종료시 선물계약을 처분</strong>해야합니다.<br>
+상기 이유들은 <em>베이시스 리스크</em>를 발생시키는 원인이 됩니다.</p>
+<ul>
+<li><p><strong>베이시스(Basis)</strong> : 베이시스란, 기초자산의 가격에서 선물가격을 차감한 값을 말합니다. <span class="math display">\[Basis = Spot\;price - Futures\;price\]</span> 선물의 본질을 고려할 때, 선물가격은 현물가격과 유사하게 형성되며 만기일에는 현물가격으로 수렴하는 것을 직관적으로 알 수 있습니다. 따라서, <strong>베이시스</strong>는 0을 중심으로 움직이다가, <strong>선물 만기일이 가까워지면서 0으로 수렴</strong>하게 됩니다.<br>
+선물을 이용하여 헷지하는 경우, 일반적으로 선물 만기일 이전에 헷지를 종료하게 됩니다. 이때, 헷지종료시점에 선물가격(<span class="math inline">\(F_t\)</span>)은 현물가격(<span class="math inline">\(S_t\)</span>)과 다르므로 그 차이(<span class="math inline">\(B_2=F_2-S_2\)</span>)만큼 예기치 못한 손익이 발생합니다. 이를 <strong><em>베이시스 리스크</em></strong>라고 합니다.<br>
+만약, 선물의 기초자산과 보유한 자산이 정확히 일치하지 않는 경우 헷지종료시점의 기초자산가격과 보유한 자산의 가격의 차이(<span class="math inline">\(S^*_t-S_t\)</span>)만큼 추가적인 손익이 발생합니다. 즉, <em>베이시스 리스크</em>가 확대되며 이러한 헷지를 <em>교차헷지</em>라고 합니다.</p></li>
+<li><p><strong>선물계약 선택</strong> : 베이시스 리스크 최소화를 위해서는 내가 보유한 자산과 <strong>정확히 일치하거나 거의 유사한(</strong><span class="math inline">\(corelation\approx 1\)</span>) 기초자산의 선물을, 헷지종료시점을 기준으로 가장 가까운 만기의 선물을 선택하는 것이 유리합니다. 다만, 실제로는 선물 유동성이 최근월물 위주로 형성되므로, 최근월물을 롤오버하는 방식이 많이 사용됩니다.</p></li>
+</ul>
+</section>
+<section id="교차-헷지cross-hedging" class="level2">
+<h2 class="anchored" data-anchor-id="교차-헷지cross-hedging">교차 헷지(<em>Cross Hedging</em>)</h2>
+<p>교차 헷지는 내가 보유한 자산과 선물의 기초자산이 같지 않은 경우를 말합니다. 항공사가 항공기 제트연료 가격 헷지를 위해 등유선물을 이용하는 것을 예로 들 수 있습니다.<br>
+헷지비율(<em>hedge ratio</em>)은 보유자산의 명목금액 대비 선물계약의 명목금액의 비율로, 일반적으로 가격변동위험 최소화를 위해 1이 되도록 설정합니다.<br>
+그러나, 교차 헷지를 해야하는 경우 헷지비율을 1로 설정해도 가격변동위험을 최소화되지 않을 수 있습니다. 이 경우, <strong>보유 포트폴리오의 변동성이 최소화되는 헷지비율을 설정</strong>해야 합니다.</p>
+<ul>
+<li><p><strong>헷지비율 계산</strong> : 먼저, 보유자산의 가격을 <span class="math inline">\(S\)</span>, 선물가격을 <span class="math inline">\(F\)</span>, 헷지비율을 <span class="math inline">\(h\)</span>라고 하고 <span class="math inline">\(S\)</span>와 <span class="math inline">\(F\)</span>간에 선형성이 존재한다고 가정하면, 가격의 증분 <span class="math inline">\(\Delta S\)</span>와 <span class="math inline">\(\Delta F\)</span>를 아래와 같이 표현할 수 있습니다. <span class="math display">\[\Delta S=a+b\Delta F+\epsilon\]</span> 이때, <span class="math inline">\(h\)</span>만큼 매도헷지를 실행한 포트폴리오 가격의 증분은, <span class="math display">\[\Delta S-h\Delta F=a+(b-h)\Delta F+\epsilon\]</span> 포트폴리오의 변동성 최소화를 위해서는 <span class="math inline">\(h=b\)</span>임을 쉽게 알 수 있습니다.<br>
+따라서, 선형회귀분석으로 추정한 계수 <span class="math inline">\(b\)</span>가 최적 헷지비율(<span class="math inline">\(h^*\)</span>)이 됩니다. <span class="math display">\[h^*=b=\rho \frac{\sigma _S}{\sigma _F}\]</span> 이를 통해 보유자산과 선물 기초자산이 동일한 경우(<span class="math inline">\(\rho=1, \sigma _S=\sigma _F\)</span>)의 최적헷지비율은 1이 되며, 선물의 가격이 현물의 2배 민감도로 움직일 때(<span class="math inline">\(\sigma _F=2\sigma _S\)</span>) 최적헷지비율이 0.5가 되는 것을 이해할 수 있습니다.</p></li>
+<li><p><strong>최적 계약 수</strong> : 보유자산의 수량을 <span class="math inline">\(Q_A\)</span>, 선물 1계약의 수량을 <span class="math inline">\(Q_F\)</span>, 최적헷지비율을 <span class="math inline">\(h^*\)</span>라고 하면, 최적헷지를 위한 선물계약 수 <span class="math inline">\(N^*\)</span>는, <span class="math display">\[N^*=\frac{h^* Q_A}{Q_F}\]</span></p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="최적헷지비율 및 계약수 예시">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+최적헷지비율 및 계약수 예시
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>제트연료 가격의 변동성을 <span class="math inline">\(\sigma _A=0.1\)</span>, 등유선물 가격의 변동성을 <span class="math inline">\(\sigma _F=0.2\)</span>, 제트연료와 등유선물 가격간 상관계수를 <span class="math inline">\(\rho = 0.8\)</span>라고 하고, 헷지대상 제트연료가 200만 갤런 및 CME등유선물이 1계약당 4만갤런이라고 하자. 그러면, <span class="math display">\[h^*=0.8*\frac{0.1}{0.2}=0.4\]</span> <span class="math display">\[N^*=0.4*\frac{2,000,000}{40,000}=20contract\]</span></p>
+</div>
+</div>
+<ul>
+<li><strong>일일정산의 영향</strong> : 현재까지는 일일정산이 없다고 가정하였으나, 실제 선물을 거래할 때는 오늘 선물의 종가로 보유선물계약을 평가하여 하루단위로 손익을 정산하고 있습니다.<br>
+<strong>일일정산 반영</strong>을 위해 앞선 수식을 <strong>일수익률</strong>을 기준으로 정리해보겠습니다. 보유자산 가격의 일수익률의 표준편차를 <span class="math inline">\(\hat{\sigma}_S\)</span>, 선물가격의 일수익률의 표준편차를 <span class="math inline">\(\hat{\sigma}_F\)</span>, 현물 및 선물의 일수익률간 상관계수를 <span class="math inline">\(\hat{\rho}\)</span>라고 하면, <span class="math display">\[h^*=\rho \frac{\sigma _S}{\sigma _F}=\hat{\rho} \frac{\hat{\sigma} _S S}{\hat{\sigma} _F F}\]</span> <span class="math display">\[N^*=\frac{h^* Q_A}{Q_F}=\hat{\rho} \frac{\hat{\sigma} _S S Q_A}{\hat{\sigma} _F F Q_F}\]</span> 이제, 실제 가격변화를 사용한 최적헷지비율 <span class="math inline">\(h^*\)</span>대신 일수익률을 이용한 최적헷지비율을 <span class="math inline">\(\hat{h}^*\)</span>라고 하면, 아래와 같이 정리할 수 있습니다. <span class="math display">\[\hat{h}^*=\hat{\rho} \frac{\hat{\sigma} _S}{\hat{\sigma} _F},\; N^*=\frac{\hat{h}^* V_A}{V_F}=\frac{\hat{h}^* A Q_A}{F Q_F}\]</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="최적헷지비율 및 계약수 예시2">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+최적헷지비율 및 계약수 예시2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>제트연료 가격이 <span class="math inline">\(1.1\)</span>, 등유선물 가격이 <span class="math inline">\(1.2\)</span>, 제트연료와 등유선물 일수익률간 상관계수를 <span class="math inline">\(\hat{\rho} = 0.8\)</span>라고 하고, 헷지대상 제트연료가 200만 갤런 및 CME등유선물이 1계약당 4만갤런이라고 하자. 그러면, 하루 헷지에 필요한 최적수량은 <span class="math display">\[N^*=0.8*\frac{2,000,000 \times 1.1}{40,000 \times 1.2}=36.67\]</span></p>
+</div>
+</div>
+</section>
+<section id="주가지수선물" class="level2">
+<h2 class="anchored" data-anchor-id="주가지수선물">주가지수선물</h2>
+<p>주가지수란, 주식 포트폴리오의 수익률을 추정하도록 설계한 지수를 말합니다. 일반적으로 구성종목을 정한 후, 동일한 비중 또는 시가총액(유통주식수*주가)비율로 비중을 정하는 방식을 차용합니다. 보통 배당은 반영하지 않아 자본손익만을 추종하며, 구성종목의 주가 변동에 따라 지수의 구성비중이 실시간 변동하는 특징이 있습니다.</p>
+<ul>
+<li><p><strong>주요 지수</strong> : 미국의 대표적인 주가지수로는 다우존스30(DJIA), S&amp;P500, Nasdaq100 등이 있고 중국의 CSI300 및 국내는 KOSPI200, KOSDAQ150 등이 있습니다.</p></li>
+<li><p><strong>주식 포트폴리오 헷지</strong> : 주가지수선물을 이용하여 주식 포트폴리오를 헷지할 때, 포트폴리오의 가치를 <span class="math inline">\(V_A\)</span>, 주가지수선물 1계약의 가치를 <span class="math inline">\(V_F\)</span>, 해당 지수에 대한 포트폴리오 베타를 <span class="math inline">\(\beta\)</span>라고 하면 최적계약 수는 아래와 같습니다. <span class="math display">\[N^*=\beta\frac{V_A}{V_F}\]</span> 만약 헷지기간 중 베타가 변동하는 경우, <span class="math inline">\((\beta - \beta ^*)\times\frac{V_A}{V_F}\)</span>만큼 선물계약을 조정해야 합니다.</p></li>
+<li><p><strong>주식 포트폴리오를 헷지하는 이유</strong> : 원문 책의 Table3.4를 참조하면, 주식포트폴리오 헷지를 통해 가격변동위험을 통제하고 나면 투자자가 얻는 수익은 무위험이자율 수준입니다.<br>
+여기서 한가지 근원적인 의문이 발생합니다. <strong><em>이자율 정도의 수익은 은행에 돈을 넣어두면 생기는데, 왜 주식포트폴리오를 매수하고 번거롭게 선물로 헷지하는 일을 해야하는거지?</em></strong><br>
+이에 대한 답으로는 “시장 전체의 위험(market risk)는 헷지하고 포트폴리오의 초과 수익(<span class="math inline">\(\alpha\)</span>)만 얻고싶은” 경우, “포트폴리오를 장기간 보유할 계획이나, 단기적으로 가격변동에 대한 헷지가 필요”한 경우 등이 있습니다.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="시장위험 헷지 예시">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+시장위험 헷지 예시
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>현재 주식 포트폴리오의 가치는 200만 달러, 베타는 1.1, CME SnP500선물 1계약의 가치는 10만 달러라고 하자.<br>
+시장 위험을 헷지하기 위한 최적계약수는 <span class="math inline">\(N^*=1.1\times\frac{2,000,000}{100,000}=22\)</span>이고, 22계약을 매도하여 헷징포트폴리오를 구축하였다.<br>
+선물 만기일에 S&amp;P500지수는 20%하락, 나의 포트폴리오는 12%하락하였다면, 헷징포트폴리오는 -24만$ 및 선물에서 +44만$ 이익이 발생하여 합계 20만$의 이익이 발생한다.<br>
+즉, 시장은 전체적으로 하락하였으나 내 포트폴리오가 outperform하여 초과이익 <span class="math inline">\(\alpha\)</span>가 발생한 것으로 해석할 수 있다.</p>
+</div>
+</div>
+</section>
+<section id="스택-앤-롤stack-and-roll" class="level2">
+<h2 class="anchored" data-anchor-id="스택-앤-롤stack-and-roll">스택 앤 롤(<em>Stack And Roll</em>)</h2>
+<p>선물을 이용하여 헷지할 때, <strong>헷지종료시점이 선물 만기일보다 나중</strong>인 경우가 있습니다. 이때는 먼저 선물을 이용해 헷지한 다음, <strong>만기일 직전에 선물 포지션을 청산함과 동시에 만기가 긴 선물로 새로운 포지션을 구축</strong>하는 방법을 사용합니다. 이것이 <em>스택 앤 롤</em> 방법입니다.<br>
+물론 헷지종료시점과 정확히 일치하는 선물을 사용하는 것이 가장 좋지만, <strong>선물의 유동성은 만기가 짧은 종목에 집중</strong>되어 있어 원하는 만기의 선물을 거래하기 어렵습니다. 실제로는 <strong>가장 만기가 짧은 최근월물로 헷지</strong>하고, <strong>만기가 도래할 때마다 다음 최근월물로 갈아타는 <em>롤오버(Roll-over)</em> 방식</strong>이 많이 사용됩니다.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Stack and Roll의 위험성 : Metallgesellschaft 사례">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Stack and Roll의 위험성 : Metallgesellschaft 사례
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Metallgesellschaft(이하, MG)는 독일의 원자재 회사로 등유와 가솔린을 판매하는 사업을 영위.<br>
+판매계약은 향후 5~10년까지 고정가격에 체결되어있어, MG는 원자재 가격상승위험 회피를 위해 선물을 매수하여 헷지 실행. 다만, 만기가 5~10년 뒤인 선물은 거래가 어려워 최근월물을 롤오버하였는데, 여기서 단기적으로 원자재의 가격이 하락하면서 선물 포지션에서 손실이 누적됨.<br>
+이를 만회하기 위해서는 판매대금을 받아야하는데, 미래시점의 판매대금을 미리 받을 수는 없어 현금흐름위험(cashflow risk)에 직면.<br>
+결국 선물 포지션이 강제청산(margin call)되면서, 막대한 손실을 입음.</p>
+</div>
+</div>
+</section>
+<section id="sec-CAPM" class="level2">
+<h2 class="anchored" data-anchor-id="sec-CAPM">Appendix : CAPM</h2>
+<p>자본자산가격결정모형(CAPM, <strong>C</strong>apital <strong>A</strong>sset <strong>P</strong>ricing <strong>M</strong>odel)은 포트폴리오의 리스크 대비 기대수익률을 측정하는 모델입니다. 리스크는 시장 전체의 리스크로 분산(diversified)할 수 없는 <em>Systematic risk</em>와 분산할 수 있는 자산 고유의 위험인 <em>Nonsystematic risk</em>로 구성됩니다. CAPM 유도에 필요한 가정과 결과 산식은 다음과 같습니다.</p>
+<ol type="1">
+<li>투자자는 기대수익률과 수익률의 표준편차만을 고려하여 투자자산을 결정한다.</li>
+<li>자산의 수익률은 시장의 수익률 대비 민감도 <span class="math inline">\(\beta\)</span>로부터 산출된다.(Only one factor) 즉, 자산들간의 상관계수는 각 자산의 <span class="math inline">\(\beta\)</span>의 비율과 같다.</li>
+<li>투자자는 한 투자기간에 대해서만 고려하며, 투자기간은 모든 투자자가 같다.</li>
+<li>투자자는 무위험수익률 <span class="math inline">\(R_f\)</span>로 무한히 빌리거나 빌려줄 수 있다.</li>
+<li>세금은 고려하지 않는다.</li>
+<li>자산의 기대수익률과 표준편차, 상관계수는 모든 투자자에게 동일하다.</li>
+</ol>
+<p><span class="math display">\[E(R_{portfolio})=R_f+\beta(R_{market}-R_f)\]</span></p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright 2024, Hyeonghwan Kim</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
