@@ -23,7 +23,7 @@ subtitle: "생후 30일까지..."
 
 ![심드렁한 나율](images/17.jpeg){fig-align="center" width="10cm"}
 
-![집에 처음 온 나율](images/33.jpeg){fig-align="center" width="10cm"}
+![누에고치 나율](images/33.jpeg){fig-align="center" width="10cm"}
 
 ![집에 처음 온 나율](images/18.jpeg){fig-align="center" width="10cm"}
 

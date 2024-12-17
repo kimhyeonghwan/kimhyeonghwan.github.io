@@ -1,6 +1,6 @@
 ---
 title: "육아일기"
-image: images/baby1.jpeg
+image: baby/images/33.jpeg
 about:
   template: jolla
   image-shape: round

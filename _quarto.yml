@@ -11,7 +11,7 @@ website:
     left:
       - text: "HOME"
         file: home.qmd
-      - text: "KAIST"
+      - text: "Study"
         href: home_study.qmd
       - text: "Baby"
         href: home_baby.qmd        
