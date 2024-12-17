@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/home_life.html",
+    "items": [
+      "/life/daily.html",
+      "/life/cat.html",
+      "/life/baby.html"
+    ]
+  },
+  {
     "listing": "/home_gaming.html",
     "items": [
       "/gaming/hades2_3.html",
@@ -20,14 +28,6 @@
       "/gaming/tft_45.html",
       "/gaming/tft_40.html",
       "/gaming/tft_35.html"
-    ]
-  },
-  {
-    "listing": "/home_life.html",
-    "items": [
-      "/life/daily.html",
-      "/life/cat.html",
-      "/life/baby.html"
     ]
   }
 ]
