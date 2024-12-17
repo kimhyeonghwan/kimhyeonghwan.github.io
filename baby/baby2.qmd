@@ -1,0 +1,56 @@
+---
+title: "신생아 일기"
+subtitle: "생후 30일까지..."
+---
+
+![조리원 입소 후 한컷](images/8.jpeg){fig-align="center" width="10cm"}
+
+![505호 김나율](images/9.jpeg){fig-align="center" width="10cm"}
+
+![김나율 천사미소](images/10.jpeg){fig-align="center" width="10cm"}
+
+![똥실똥실 공주](images/11.jpeg){fig-align="center" width="10cm"}
+
+![키위머리 킴나율](images/12.jpeg){fig-align="center" width="10cm"}
+
+![잘자는 나율](images/13.jpeg){fig-align="center" width="10cm"}
+
+![귀여운짓하는 나율](images/14.jpeg){fig-align="center" width="10cm"}
+
+![꿀잠자는 나율](images/15.jpeg){fig-align="center" width="10cm"}
+
+![초점놀이 하는 나율](images/16.jpeg){fig-align="center" width="10cm"}
+
+![심드렁한 나율](images/17.jpeg){fig-align="center" width="10cm"}
+
+![집에 처음 온 나율](images/33.jpeg){fig-align="center" width="10cm"}
+
+![집에 처음 온 나율](images/18.jpeg){fig-align="center" width="10cm"}
+
+![수염난 아저씨랑 한컷](images/19.jpeg){fig-align="center" width="10cm"}
+
+![엄마랑도 한컷](images/20.jpeg){fig-align="center" width="10cm"}
+
+![포데기에 숨겨진 나율](images/21.jpeg){fig-align="center" width="10cm"}
+
+![하품하는 나율](images/22.jpeg){fig-align="center" width="10cm"}
+
+![위풍당당 근엄한 나율](images/23.jpeg){fig-align="center" width="10cm"}
+
+![윙크 나율](images/24.jpeg){fig-align="center" width="10cm"}
+
+![30일 기념샷](images/25.jpeg){fig-align="center" width="10cm"}
+
+![꿀잠자는 나율2](images/26.jpeg){fig-align="center" width="10cm"}
+
+![터미타임1](images/27.jpeg){fig-align="center" width="10cm"}
+
+![터미타임2](images/28.jpeg){fig-align="center" width="10cm"}
+
+![넊나간 아부지](images/29.jpeg){fig-align="center" width="10cm"}
+
+![꿀잠자는 나율3](images/30.jpeg){fig-align="center" width="10cm"}
+
+![아빠랑 한컷](images/31.jpeg){fig-align="center" width="10cm"}
+
+![자면서 웃는 나율](images/32.jpeg){fig-align="center" width="10cm"}

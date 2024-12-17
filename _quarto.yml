@@ -13,12 +13,14 @@ website:
         file: home.qmd
       - text: "KAIST"
         href: home_study.qmd
-      - text: "LIFE"
-        file: home_life.qmd
+      - text: "Baby"
+        href: home_baby.qmd        
       - text: "Gaming"
         file: home_gaming.qmd
-      - text: "금융공학"
+      - text: "Essay"
         file: "home_fe.qmd"
+      - text: "Other life"
+        file: home_life.qmd
     tools:
       - icon: google
         menu:
@@ -28,11 +30,11 @@ website:
       - icon: github
         href: https://github.com/kimhyeonghwan
   sidebar: 
-    - title: "KAIST"
+    - title: "Study"
       style: "docked"
       background: light
       contents:
-        - text: "KAIST Home"
+        - text: "Study Home"
           file: home_study.qmd
         - text: "24년 봄학기"
           href: https://hwan.quarto.pub/24s
@@ -42,12 +44,23 @@ website:
           href: https://hwan.quarto.pub/24f
         - text: "25년 봄학기"
         - text: "25년 가을학기(논문)"
+    - title: "Baby"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Baby Home"
+          file: home_baby.qmd
+        - text: "탄생의 순간"
+          href: baby/baby1.qmd
+        - text: "신생아 일기"
+          href: baby/baby2.qmd
+
     - title: "Gaming"
       contents: gaming
-    - title: "금융공학"
+    - title: "Essay"
       contents:
-        - text: "금융공학 home"
-          file: "home_fe.qmd"
+        - text: "Essay home"
+          file: "home_essay.qmd"
         - text: "(1) 금융과 공학"
           file: fe/fe_1.qmd
         - text: "(2) 금융공학의 여러 분야"

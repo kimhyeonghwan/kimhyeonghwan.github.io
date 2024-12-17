@@ -1,0 +1,12 @@
+---
+title: "육아일기"
+image: images/baby1.jpeg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 3in
+---
+
+울 딸래미 나율이 육아일기입니다.
+
+김나율 / 2024.11.06(수) / 16:28분 / 3.215kg / O형
