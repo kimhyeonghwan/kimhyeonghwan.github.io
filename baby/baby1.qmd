@@ -1,18 +1,21 @@
 ---
 title: "탄생의 순간"
 subtitle: "산부인과 퇴원까지(~생후 5일)"
+fig-cap-location: top
 ---
 
-![2024.11.06, 16:28 김나율 탄생](images/1.jpeg){fig-align="center" width="10cm"}
+::: {layout-ncol="2"}
+![2024.11.06, 16:28 김나율 탄생](images/1.jpeg)
 
-![쪼꼬미 공주 탄생](images/2.jpeg){width="10cm"}
+![쪼꼬미 공주 탄생](images/2.jpeg)
 
-![씩씩한 홍이장군](images/3.jpeg){fig-align="center" width="10cm"}
+![씩씩한 홍이장군](images/3.jpeg)
 
-![첫 뿌에엥](images/4.jpeg){fig-align="center" width="10cm"}
+![첫 뿌에엥](images/4.jpeg)
 
-![첫 눈뜸... 뜬거맞뉘](images/5.jpeg){fig-align="center" width="10cm"}
+![첫 눈뜸... 뜬거맞뉘](images/5.jpeg)
 
-![발꼬랑쥐](images/6.jpeg){fig-align="center" width="10cm"}
+![발꼬랑쥐](images/6.jpeg)
 
-![니가 내 아빠인거니?](images/7.jpeg){fig-align="center" width="10cm"}
+![니가 내 아빠인거니?](images/7.jpeg)
+:::

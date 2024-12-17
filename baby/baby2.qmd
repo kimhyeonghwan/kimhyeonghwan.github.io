@@ -1,8 +1,10 @@
 ---
 title: "신생아 일기"
-subtitle: "생후 30일까지..."
+subtitle: "생후 50일까지..."
+fig-cap-location: top
 ---
 
+::: {layout-ncol="2"}
 ![조리원 입소 후 한컷](images/8.jpeg){fig-align="center" width="10cm"}
 
 ![505호 김나율](images/9.jpeg){fig-align="center" width="10cm"}
@@ -54,3 +56,4 @@ subtitle: "생후 30일까지..."
 ![아빠랑 한컷](images/31.jpeg){fig-align="center" width="10cm"}
 
 ![자면서 웃는 나율](images/32.jpeg){fig-align="center" width="10cm"}
+:::
