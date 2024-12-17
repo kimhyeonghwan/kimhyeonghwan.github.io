@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hyeonghwan - Other life</title>
+<title>Hyeonghwan - 금융공학의 여러 분야</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../fe/fe_1.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,77 +66,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Hyeonghwan</span>
     </a>
   </div>
@@ -148,27 +89,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
+    <a class="nav-link" href="../home.html"> 
 <span class="menu-text">HOME</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home_study.html"> 
-<span class="menu-text">Study</span></a>
+    <a class="nav-link" href="../home_study.html"> 
+<span class="menu-text">KAIST</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home_baby.html"> 
+    <a class="nav-link" href="../home_baby.html"> 
 <span class="menu-text">Baby</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home_gaming.html"> 
+    <a class="nav-link" href="../home_gaming.html"> 
 <span class="menu-text">Gaming</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home_essay.html"> 
+    <a class="nav-link active" href="../home_essay.html" aria-current="page"> 
 <span class="menu-text">Essay</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./home_life.html" aria-current="page"> 
+    <a class="nav-link" href="../home_life.html"> 
 <span class="menu-text">Other life</span></a>
   </li>  
 </ul>
@@ -193,21 +134,61 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fe/fe_2.html">(2) 금융공학의 여러 분야</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../home_essay.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Essay home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../fe/fe_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">(1) 금융과 공학</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../fe/fe_2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">(2) 금융공학의 여러 분야</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="baby">baby <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cat">cat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="daily">daily <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Other life</h1>
-<p class="subtitle lead">Photo blog</p>
+<h1 class="title">금융공학의 여러 분야</h1>
 </div>
 
 
@@ -224,138 +205,25 @@ window.Quarto = {
 </header>
 
 
+<section id="intro" class="level3">
+<h3 class="anchored" data-anchor-id="intro">Intro</h3>
+<p>앞서 저는 금융공학을 <strong>자본의 흐름을 이용해서 새로운 금융을 만드는 학문</strong>이라고 정의했습니다.</p>
+<p>근데 사실 잘 안와닿을 것 같긴합니다. 제가 생각해도 모호한 것 같은데요,</p>
+<p>그 이유를 생각해보니 금융공학에 대한 일반적인 인식과 동떨어져서 그런 것 같습니다.</p>
+<p>아마 금융공학이라고 하면, <em>뭔가 수학적으로 주가를 예측하고, 이걸 컴퓨터로 구현한 다음, 남들보다 빨리 거래기회를 포착해서 돈을 버는 것</em>을 떠올리게 되는 것 같습니다.</p>
+<p>즉, 금융공학은 자산을 프라이싱(pricing)하는 기술정도로 인식되고 있는 듯 합니다. 제가 생각하는 무언가 편리한 도구를 만드는 공학의 개념이랑은 좀 다르게 말입니다.</p>
+<p>왜 그럴까요?</p>
+<p>당연한 말이긴 하지만, 금융공학을 통해 새로운 금융을 만들어내기 위해서는 기존의 금융, 전통 자산에 대한 프라이싱이 반드시 필요하기 때문입니다. 주식이나 채권같은 전통 자산의 가격이 어떻게 결정되는지를 먼저 잘 알고, 이를 이용해서 새로운 금융상품을 만들어냄으로써 금융을 창출하는 것 이지요.</p>
+<p>아마도 금융공학의 여러 가격결정 이론(pricing theory)를 이용해서 시장의 불균형을 찾아내고, 여기에서 돈을 버는 사람들이 점점 많아지면서 “금융공학은 프라이싱이다!” 라는 일반적인 인식이 자리잡지 않았을까 싶습니다.</p>
+<p>물론 그 과정에서 시장의 불균형이 해소되고, 효율성이 높아지면서 선의의 다수의 투자자에게 이익이 돌아갈 수 있습니다. 그렇다면 여기서 돈을 버는 행위도 금융공학이라고 할 수 있겠죠. 시장조성(Market making)이나 유동성공급자(Liquidity provider)처럼 말입니다.</p>
+<p>제가 말하고싶은건 프라이싱이 금융공학의 전부가 아니라는 겁니다. 금융공학은 본질적으로 새로운 금융을 만들어내는 편리한 도구이고, 프라이싱도 그 편리한 도구 중 하나입니다. 프라이싱을 통해 새로운 금융을 만들어내는 것이 금융공학이지, 프라이싱 자체가 목적이 될 수는 없습니다.</p>
+<p>그럼 금융공학의 목적이라고 할 수 있는 새로운 금융 창출에는 어떤 것들이 있을까요?</p>
+<p>이제 제가 생각하는 금융공학의 여러 분야를 알아보고, 또 프라이싱이 어떤 역할을 하는지, 어떤 방식으로 새로운 금융이 창출되는지 살펴보겠습니다.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="daily" data-listing-date-sort="1714662000000" data-listing-file-modified-sort="1714936938322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/daily.html" class="no-external"></a></p><a href="./life/daily.html" class="no-external">
-<p><img src="./life/images/sally2.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/daily.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/daily.html" class="no-external">daily_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/daily.html" class="no-external">데일리 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('daily'); return false;">
-daily
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/daily.html" class="no-external">데일리 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/daily.html" class="no-external">
-<div class="listing-date">
-May 3, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cat" data-listing-date-sort="1714575600000" data-listing-file-modified-sort="1714936938322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/cat.html" class="no-external"></a></p><a href="./life/cat.html" class="no-external">
-<p><img src="./life/images/sally2.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/cat.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/cat.html" class="no-external">cat_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/cat.html" class="no-external">고양이 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cat'); return false;">
-cat
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/cat.html" class="no-external">고양이 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/cat.html" class="no-external">
-<div class="listing-date">
-May 2, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="baby" data-listing-date-sort="1714489200000" data-listing-file-modified-sort="1714936938321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/baby.html" class="no-external"></a></p><a href="./life/baby.html" class="no-external">
-<p><img src="./life/images/sally1.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/baby.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/baby.html" class="no-external">baby_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/baby.html" class="no-external">baby 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('baby'); return false;">
-baby
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/baby.html" class="no-external">baby 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/baby.html" class="no-external">
-<div class="listing-date">
-May 1, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -765,6 +633,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../fe/fe_1.html" class="pagination-link" aria-label="(1) 금융과 공학">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">(1) 금융과 공학</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

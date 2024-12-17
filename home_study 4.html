@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hyeonghwan - Other life</title>
+<title>Hyeonghwan - Study</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -67,70 +64,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -152,8 +91,8 @@ window.Quarto = {
 <span class="menu-text">HOME</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home_study.html"> 
-<span class="menu-text">Study</span></a>
+    <a class="nav-link active" href="./home_study.html" aria-current="page"> 
+<span class="menu-text">KAIST</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./home_baby.html"> 
@@ -168,7 +107,7 @@ window.Quarto = {
 <span class="menu-text">Essay</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./home_life.html" aria-current="page"> 
+    <a class="nav-link" href="./home_life.html"> 
 <span class="menu-text">Other life</span></a>
   </li>  
 </ul>
@@ -193,169 +132,123 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./home_study.html">Study Home</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./home_study.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Study Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://hwan.quarto.pub/24s" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24년 봄학기</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://hwan.quarto.pub/derivatives" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24년 봄학기(선물옵션)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://hwan.quarto.pub/24f" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">24년 가을학기</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+ <span class="menu-text">25년 봄학기</span>
+  </li>
+        <li class="sidebar-item">
+ <span class="menu-text">25년 가을학기(논문)</span>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="baby">baby <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cat">cat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="daily">daily <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+  <ul>
+  <li><a href="#kaist-mfe" id="toc-kaist-mfe" class="nav-link active" data-scroll-target="#kaist-mfe">KAIST MFE</a>
+  <ul class="collapse">
+  <li><a href="#학기별-이수과목" id="toc-학기별-이수과목" class="nav-link" data-scroll-target="#학기별-이수과목">학기별 이수과목</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles content">
+  <div class="about-entity">
+    <img src="images/brochure_mfe.jpg" class="about-image
+  rounded " style="width: 3in;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Other life</h1>
-<p class="subtitle lead">Photo blog</p>
+<h1 class="title">Study</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<section id="kaist-mfe" class="level2">
+<h2 data-anchor-id="kaist-mfe">KAIST MFE</h2>
+<p>현재 공부중인 카이스트 금융공학프로그램의 이수과목별로 수업자료나 과제를 정리하는 페이지입니다.</p>
+<p>왼쪽 메뉴를 클릭하시면 서브페이지로 연결됩니다.</p>
+<section id="학기별-이수과목" class="level3">
+<h3 data-anchor-id="학기별-이수과목">학기별 이수과목</h3>
+<section id="년-봄학기" class="level4">
+<h4 data-anchor-id="년-봄학기">24년 봄학기</h4>
+<div class="line-block">선물 및 옵션 | 류혁선 교수님<br>
+투자분석 | 현정순 교수님<br>
+채권분석&amp;이자율기간구조 | 김경국 교수님<br>
+경영통계분석 | 김동규 교수님<br>
+금융공학프로그래밍3 | 김아현 교수님<br>
+재무회계 | 류충열 교수님</div>
+</section>
+<section id="년-가을학기" class="level4">
+<h4 data-anchor-id="년-가을학기">24년 가을학기</h4>
+<div class="line-block">금융공학 인공지능 및 기계학습 | 김아현 교수님<br>
+전산금융(딥러닝) | 김아현 교수님<br>
+금융수치해석기법 | 황근호 교수님<br>
+시뮬레이션 방법론 | 황근호 교수님<br>
+이자율 파생상품 | 김경국 교수님<br>
+금융시장리스크관리 | 이창주 교수님<br>
+금융경제의 미시분석 | 강태수 교수님<br>
+글로벌 지속가능경영 회계 | 김범중 교수님</div>
+</section>
+<section id="년-봄학기-1" class="level4">
+<h4 data-anchor-id="년-봄학기-1">25년 봄학기</h4>
+</section>
+<section id="년-가을학기-1" class="level4">
+<h4 data-anchor-id="년-가을학기-1">25년 가을학기</h4>
+
+
+</section>
+</section>
+</section>
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main></div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="daily" data-listing-date-sort="1714662000000" data-listing-file-modified-sort="1714936938322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/daily.html" class="no-external"></a></p><a href="./life/daily.html" class="no-external">
-<p><img src="./life/images/sally2.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/daily.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/daily.html" class="no-external">daily_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/daily.html" class="no-external">데일리 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('daily'); return false;">
-daily
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/daily.html" class="no-external">데일리 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/daily.html" class="no-external">
-<div class="listing-date">
-May 3, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cat" data-listing-date-sort="1714575600000" data-listing-file-modified-sort="1714936938322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/cat.html" class="no-external"></a></p><a href="./life/cat.html" class="no-external">
-<p><img src="./life/images/sally2.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/cat.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/cat.html" class="no-external">cat_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/cat.html" class="no-external">고양이 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cat'); return false;">
-cat
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/cat.html" class="no-external">고양이 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/cat.html" class="no-external">
-<div class="listing-date">
-May 2, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="baby" data-listing-date-sort="1714489200000" data-listing-file-modified-sort="1714936938321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./life/baby.html" class="no-external"></a></p><a href="./life/baby.html" class="no-external">
-<p><img src="./life/images/sally1.jpg" class="thumbnail-image" style="height: 2in;"></p>
-</a><p><a href="./life/baby.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./life/baby.html" class="no-external">baby_test</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./life/baby.html" class="no-external">baby 테스트</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('baby'); return false;">
-baby
-</div>
-</div>
-<div class="listing-description">
-<a href="./life/baby.html" class="no-external">baby 테스트입니다.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./life/baby.html" class="no-external">
-<div class="listing-date">
-May 1, 2024
-</div>
-<div class="listing-author">
-Hyeonghwan
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -376,13 +269,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
