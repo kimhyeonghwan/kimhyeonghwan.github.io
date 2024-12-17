@@ -18,7 +18,7 @@ website:
       - text: "Gaming"
         file: home_gaming.qmd
       - text: "Essay"
-        file: "home_fe.qmd"
+        file: "home_essay.qmd"
       - text: "Other life"
         file: home_life.qmd
     tools:
