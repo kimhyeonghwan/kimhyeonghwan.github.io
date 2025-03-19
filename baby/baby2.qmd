@@ -5,55 +5,97 @@ fig-cap-location: top
 ---
 
 ::: {layout-ncol="2"}
-![조리원 입소 후 한컷](images/8.jpeg){fig-align="center" width="10cm"}
+![조리원 입소 후 한컷](images/8.jpeg)
 
-![505호 김나율](images/9.jpeg){fig-align="center" width="10cm"}
+![505호 김나율](images/9.jpeg)
 
-![김나율 천사미소](images/10.jpeg){fig-align="center" width="10cm"}
+![김나율 천사미소](images/10.jpeg)
 
-![똥실똥실 공주](images/11.jpeg){fig-align="center" width="10cm"}
+![똥실똥실 공주](images/11.jpeg)
 
-![키위머리 킴나율](images/12.jpeg){fig-align="center" width="10cm"}
+![키위머리 킴나율](images/12.jpeg)
 
-![잘자는 나율](images/13.jpeg){fig-align="center" width="10cm"}
+![잘자는 나율](images/13.jpeg)
 
-![귀여운짓하는 나율](images/14.jpeg){fig-align="center" width="10cm"}
+![귀여운짓하는 나율](images/14.jpeg)
 
-![꿀잠자는 나율](images/15.jpeg){fig-align="center" width="10cm"}
+![꿀잠자는 나율](images/15.jpeg)
 
-![초점놀이 하는 나율](images/16.jpeg){fig-align="center" width="10cm"}
+![초점놀이 하는 나율](images/16.jpeg)
 
-![심드렁한 나율](images/17.jpeg){fig-align="center" width="10cm"}
+![심드렁한 나율](images/17.jpeg)
 
-![누에고치 나율](images/33.jpeg){fig-align="center" width="10cm"}
+![누에고치 나율](images/33.jpeg)
 
-![집에 처음 온 나율](images/18.jpeg){fig-align="center" width="10cm"}
+![집에 처음 온 나율](images/18.jpeg)
 
-![수염난 아저씨랑 한컷](images/19.jpeg){fig-align="center" width="10cm"}
+![수염난 아저씨랑 한컷](images/19.jpeg)
 
-![엄마랑도 한컷](images/20.jpeg){fig-align="center" width="10cm"}
+![엄마랑도 한컷](images/20.jpeg)
 
-![포데기에 숨겨진 나율](images/21.jpeg){fig-align="center" width="10cm"}
+![포데기에 숨겨진 나율](images/21.jpeg)
 
-![하품하는 나율](images/22.jpeg){fig-align="center" width="10cm"}
+![하품하는 나율](images/22.jpeg)
 
-![위풍당당 근엄한 나율](images/23.jpeg){fig-align="center" width="10cm"}
+![위풍당당 근엄한 나율](images/23.jpeg)
 
-![윙크 나율](images/24.jpeg){fig-align="center" width="10cm"}
+![윙크 나율](images/24.jpeg)
 
-![30일 기념샷](images/25.jpeg){fig-align="center" width="10cm"}
+![30일 기념샷](images/25.jpeg)
 
-![꿀잠자는 나율2](images/26.jpeg){fig-align="center" width="10cm"}
+![꿀잠자는 나율2](images/26.jpeg)
 
-![터미타임1](images/27.jpeg){fig-align="center" width="10cm"}
+![터미타임1](images/27.jpeg)
 
-![터미타임2](images/28.jpeg){fig-align="center" width="10cm"}
+![터미타임2](images/28.jpeg)
 
-![넊나간 아부지](images/29.jpeg){fig-align="center" width="10cm"}
+![넊나간 아부지](images/29.jpeg)
 
-![꿀잠자는 나율3](images/30.jpeg){fig-align="center" width="10cm"}
+![꿀잠자는 나율3](images/30.jpeg)
 
-![아빠랑 한컷](images/31.jpeg){fig-align="center" width="10cm"}
+![아빠랑 한컷](images/31.jpeg)
 
-![자면서 웃는 나율](images/32.jpeg){fig-align="center" width="10cm"}
+![자면서 웃는 나율](images/32.jpeg)
+
+![키위머리 누에고치 나율](images/34.jpeg)
+
+![나율이 발먹기](images/35.jpeg)
+
+![홍선이형이 준 아기띠](images/36.jpeg)
+
+![요염한 자세 나율](images/37.jpeg)
+
+![요염한 자세 나율2](images/38.jpeg)
+
+![천사미소 나율](images/39.jpeg)
+
+![따봉 나율](images/40.jpeg)
+
+![동네 모자란 형 나율](images/41.jpeg)
+
+![미소천사 나율](images/43.jpeg)
+
+![무념무상 먼산 나율](images/44.jpeg)
+
+![신상옷 루돌프 나율](images/42.jpeg)
+
+![크리스마스 나율](images/45.jpeg)
+
+![놀이천국 나율](images/46.jpeg)
+
+![여친짤 나율](images/47.jpeg)
+
+![아빠품에서 꿀잠](images/48.jpeg)
+
+![배불뚝이 나율](images/49.jpeg)
+
+![배불뚝이 나율2](images/50.jpeg)
+
+![엄마 붕어빵 나율](images/51.jpeg)
+
+![2차 접종가서 동네 건달 포스](images/52.jpeg)
+
+![힙합 나율](images/53.jpeg)
+
+![샐리랑 엄마랑 한컷](images/54.jpeg)
 :::
