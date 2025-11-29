@@ -43,8 +43,11 @@ website:
         - text: "24년 가을학기"
           href: https://hwan.quarto.pub/24f
         - text: "25년 봄학기"
-          href: https://hwan.quarto.pub/25s        
-        - text: "25년 가을학기(논문)"
+          href: https://hwan.quarto.pub/25s 
+        - text: "석사학위논문(발표자료)"
+          href: thesis/presentation.pdf
+        - text: "석사학위논문(학위논문)"
+          href: thesis/thesis.pdf
     - title: "Baby"
       style: "docked"
       background: light
@@ -57,6 +60,10 @@ website:
           href: baby/baby2.qmd
         - text: "100일의 기적"
           href: baby/baby3.qmd
+        - text: "첫 돌"
+          href: baby/baby4.qmd
+        - text: "첫 돌 이후"
+          href: baby/baby5.qmd
 
     - title: "Gaming"
       contents: gaming
